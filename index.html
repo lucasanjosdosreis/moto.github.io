@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!--Animações JS.-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+    <!--  animejs -->
+  <!--  owl css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  <!--  owl css -->
+  <!--  jquery -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <!--  jquery -->
+
+    <title>Motodeal</title>
+</head>
+<body>
+  <!--Menu de Navegação.-->
+  <nav class="nav">
+    <div class="container flex1">
+      <div class="logo">
+        <img src="image/logo.png" alt="">
+      </div>
+      <div class="menu">
+        <div class="main_list" id="mainListDiv">
+          <ul>
+            <li> <a href="home">Home</a> </li>
+            <li> <a href="#">sobre</a> </li>
+            <li> <a href="#">Meu Trabalho</a></li>
+            <li> <a href="#">Designer</a></li>
+            <li> <a href="#">Contato</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="media_button">
+      <i class="fas fa-bars" id="mediaButton"></i>
+      </div>
+
+      <div class="account flex1">
+        <i class="far fa-unlock-alt"></i>
+        <p>Login</p>
+      </div>
+    </div>
+  </nav>
+ <!--Fim menu--> 
+
+ <!--Script js-->
+  <script type="text/javascript">
+    var mainListDiv = document.getElementById("mainListDiv");
+    mediaButton = document.getElementById('mediaButton');
+
+    mediaButton.onclick = function() {
+      mainListDiv.classList.toggle('show_list');
+      mediaButton.classList.toggle('active');
+    }
+  </script>
+ 
+ <!--Fim Java Script-->
+
+ <!--Sobre--> 
+ 
+  <section class="home">
+    <div class="content flex">
+      <div class="left">
+        <div class="time_box flex">
+          <div class="time">
+            <h1>00:</h1>
+            <span>Dias</span>
+          </div>
+          <div class="time">
+            <h1>00: </h1>
+            <span>Horas</span>
+          </div>
+          <div class="time">
+            <h1>00: </h1>
+            <span>Minutos</span>
+          </div>
+          <div class="time">
+            <h1>00: </h1>
+            <span>Segundos</span>
+          </div>
+        </div>
+
+        <h2>Moto Deal</h2>
+        <p>Sejam Bem-Vindos(as) Nossa Loja Moto Ideal nós temos os melhores fabricantes de motos do mundo. Obrigado Anteciosamente... </p>
+
+        <div class="button flex">
+          <button class="btn1">Leia Mais </button>
+          <button class="btn2">Noticias</button>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="ani_image">
+          <img src="image/bike.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Fim sobre-->
+
+
+  <section class="latest top">
+    <div class="scontainer">
+      <div class="heading">
+        <h1>Motos</h1>
+        <div class="lines flex1">
+          <div class="line"><i class="fas fa-circle"></i> </div>
+          <button>50%</button>
+          <div class="line line2"><i class="fas fa-circle"></i> </div>
+        </div>
+      </div>
+
+      <!--Moto Honda -->
+      <div class="content grid top">
+        <div class="box">
+          <div class="img">
+            <img src="image/Galeria_0000s_0022_06_0.jpg" height="200px" width="300px" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <!--Moto Honda-->
+          <div class="detalhes">
+            <h3>Honda GL 1800 Gold Wing Tour</h3>
+            <p>Unidades: 300</p>
+            <p>Tanque Capacidade: 21 Litros</p>
+            <p>Distância entre eixos: 1.695 mm </p>
+            <p>Resfriamento: Líquido</p>
+            <p>Max Torque: 17,3kgf.m a 4.500 rpm</p>
+            <p>Motor Cc: 1.833 cc </p>
+            <p>Potência Máxima: 126cv a 5.500 rpm</p>
+            <p>Freio ABS</p>
+            <h2>R$304.450,00 <span>R$ 400.000,00</span> </h2>
+            <button>Comprar Agora</button>
+          </div>
+        </div>
+        <!--Moto Kawasaki -->
+        <div class="box">
+          <div class="img">
+            <img src="image/l2.png" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+          <!--Moto Kawasaki-->
+          <div class="detalhes">
+            <h3>Moto Kawasaki Ninja 650R 2013</h3>
+            <p>Unidades: 20</p>
+            <p>Potência Máxima: 72CV </p>
+            <p>Tanque Capacidade: 16 Litros</p>
+            <p>Distância entre eixos: 1.410mm </p>
+            <p>Resfriamento: Líquido</p>
+            <p>Max Torque: 6,7kg 7000 rpm</p>
+            <p>Motor Cc: 800cc</p>
+            <p>Freio ABS</p>
+            <h2>R$ 200.000,00 <span>R$320.000,00</span> </h2>
+            <button>Comprar Agora.</button>
+          </div>
+        </div>
+        <!--Honda -->
+        <div class="box">
+          <div class="img">
+            <img src="image/honda_msx125_grom_01.jpg" height="200px" width="300px" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+          <!--Honda-->
+          <div class="detalhes">
+            <h3>Honda MSX 125</h3>
+            <p>Unidades: 20</p>
+            <p>Tanque Capacidade: 14 Litros</p>
+            <p>Distância entre eixos:  </p>
+            <p>Resfriamento: Liquido </p>
+            <p>Max Torque: 7,2kW a 7.250 rpm </p>
+            <p>Potência Máxima: 10CV a 7.250 rpm </p>
+            <p>Motor cc: 124.9cc</p>
+            <p>Freio ABS</p>
+            <h2>R$50.000,00 <span>R$30.000,00</span> </h2>
+            <button>Comprar Agora</button>
+          </div>
+        </div>
+        <!--Moto TURbine-->
+        <div class="box">
+          <div class="img">
+            <img src="image/MTT-Turbine-Superbike-Y2K.jpg" height="200px" width="300px" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+          <!--Moto TURbine-->
+          <div class="detalhes">
+            <h3>MTT-Turbine Super Moto Y2K</h3>
+            <p>Unidades: 10</p>
+            <p>Tanque Capacidade: 34.0 Litros</p>
+            <p>Distância entre eixos: 1.72mm </p>
+            <p>Max Torque: 576,30Nm 58,8 kgf-m </p>
+            <p>Motor: Turbina Gás Rolls-Royce Allison 250</p>
+            <p>Freio ABS </p>
+            <p>Potência Máxima: 324cv a 52.000rpm</p>
+            <h2>R$ 12.320.000,00<span>R$ 9.320.000,00</span></h2>
+            <button>Comprar Agora.</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/bmw.jpg"  height="200px" width="300px" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalhes">
+            <h3>BMW 1000RR</h3>
+            <p>Unidades: 20</p>
+            <p>Tanque Capacidade: 16.5 Litros</p>
+            <p>Distância entre eixos: 1.457 mm   </p>
+            <p>Resfriamento: Líquido</p>
+            <p>Max Torque: 113 Nm a 11.000rpm  </p>
+            <p>Motor Cc: 999cc </p>          
+            <p>Potência Máxima: 210cv</p>
+            <P>Freio ABS</P>
+            <h2>R$ 112.320,00<span>R$ 120.000,00</span></h2>
+            <button>Comprar Agora.</button>
+          </div>
+        </div>
+        <!--Moto Honda CBR 1000 R-->
+        <div class="box">
+          <div class="img">
+            <img src="image/Honda-CBR1000RR-R.jpg" height="200px" width="300px" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+          <div class="detalhes">
+            <h3>Honda CBR 1000 RR-R Fireblade SP 2024</h3>
+            <p>Unidades: 30</p>
+            <p>Tanque Capacidade: 16.1 Litros </p>
+            <p>Distância entre eixos: 1.455 mm</p>
+            <p>Resfriamento: Líquido</p>
+            <p>Potência Máxima: 216,2cv a 14.500 rpm </p>
+            <p>Max Torque: 11,5 kgf.m a 12.500 rpm </p>
+            <p>Motor Cc: 1.000 cc </p>
+            <p>Freio ABS</p>
+            <h2>R$ 130.000,00<span>R$ 140.000,00</span> </h2>
+            <button>Comprar Agora</button>
+          </div>
+        </div>
+        <!--Moto Ducati-->
+        <div class="box">
+          <div class="img">
+            <img src="image/ducati.jpg" height="200px" width="300px" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+          <div class="detalhes">
+            <h3>DUCATI PANIGALE V4</h3>
+            <p>Unidades: 30</p>
+            <p>Tanque Capacidade: 16 l Litros.</p>
+            <p>Distância entre eixos: 1.469mm </p>
+            <p>Resfriamento: Líquido</p>
+            <p>Max Torque: 12,6 Ngm 10.000 rpm </p>
+            <p>Potência Máxma: 217cv a 13.000 rpm</p>
+            <p>Motor Cc: 1.103cc</p>
+            <p>Freio ABS</p>
+            <h2>R$ 132.000,00<span>R$ 120.000,00</span> </h2>
+            <button>Comprar Agora</button>
+          </div>
+        </div>
+        <!--Moto Suzuki Hayabusa -->
+        <div class="box">
+          <div class="img">
+            <img src="image/Suzuki-Hayabusa-GSX-1300R.png" height="200px" width="300px" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+          <div class="detalhes">
+            <h3>Susuki Hayabusa GSX 1300RR</h3>
+            <p>Unidades: 25</p>
+            <p>Tanque Capacidade: 20 Litros</p>
+            <p>Distância entre eixos: 1480 mm</p>
+            <p>Resfriamento: Liquido</p>
+            <p>Max Torque: 15,30 kgf.m</p>
+            <p>Potência Máxma: 190 cv</p>
+            <p>Motor Cc: 1.340cc </p>
+            <p>Freio ABS.</p>
+            <h2>R$ 80.000,00 <span>R$ 99.000,00</span> </h2>
+            <button>Comprar Agora</button>
+          </div>
+        </div>
+        <!--Moto Suzuki GSX R1000R-->
+        <div class="box">
+          <div class="img">
+            <img src="image/suzuki-gsx-r1000r-VELOCIDADE-E-ESTABILIDADE.jpg" height="200px" width="300px" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+          <div class="detalhes">
+            <h3>Susuzki GSX R1000R</h3>
+            <p>Unidades: 30 </p>
+            <p>Tanque Capacidade: 16 litros</p>
+            <p>Distância entre eixos: 1420 mm</p>
+            <p>Resfriamento: Líquido</p>
+            <p>Max Torque: 12 kgf.m a 10.800 rpm </p>
+            <p>Motor Cc: 999.8 cm³ </p>
+            <p>Potência Máxima: 202cv a 13.200 rpm</p>
+            <p>Freio ABS</p>
+            <h2>R$ 98.500,00 <span>R$ 120.300,00</span> </h2>
+            <button>Comprar Agora</button>
+          </div>
+        </div>
+        <!--Moto KTM-->
+        <div class="box">
+          <div class="img">
+            <img src="image/KTM.png" height="200px" width="300px" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+          <div class="detalhes">
+            <h3>KTM 1290 SUPER DUKE R EVO </h3>
+            <p>Unidades: 30</p>
+            <p>Tanque Capacidade: 16 Litros</p>
+            <p>Distância entre eixos: 1482mm </p>
+            <p>Resfriamento: Liquido</p>
+            <p>Max Torque: 140 Nm</p>
+            <p>Potência Máxima: 180CV</p>
+            <p>Motor Cc: 1.301cc</p>
+            <p>Freio ABS</p>
+            <h2>R$ 130.000,00<span>R$ 140.000,00</span> </h2>
+            <button>Comprar Agora</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/baixados (1).jpg " height="200px" width="300px" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+          <div class="detalhes">
+            <h3>Honda PCX City</h3>
+            <p>Unidades: 50</p>
+            <p>Tanque Capacidade: 8 Litros</p>
+            <p>Distância entre eixos: 1313 mm</p>
+            <p>Resfriamento: Liquido</p>
+            <p>Max Torque: 1.5 kgf.m a 6.500 rpm </p>
+            <p>Motor Cc: 15.9cc</p>
+            <p>Potência Máxima: 16CV</p>
+            <p>Freio ABS</p>
+            <h2>R$ 29.000,00<span> R$ 40.000,00 </span> </h2>
+            <button>Comprar Agora</button>
+          </div>
+        </div>
+        <!---->
+        <div class="box">
+          <div class="img">
+            <img src="image/top.jpg" height="200px" width="300px" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+          <div class="detalhes">
+            <h3>Pan America™ 1250</h3>
+            <p>Unidades: 50</p>
+            <p>Tanque Capacidade: 16.2 Litros </p>
+            <p>Distância entre eixos: 2.270 mm</p>
+            <p>Resfriamento: Liquido</p>
+            <p>Max Torque: 128nm 6500rpm </p>
+            <p>Motor Cc: 1.252cc</p>
+            <P>Potência Máxima:320CV</P>
+            <h2>R$ 140.000,00 <span>R$ 180.000,00</span> </h2>
+            <button>Comprar Agora</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Fim-->
+
+
+
+  <!--Slides motos -->
+  <section class="slider top">
+    <div class="scontainer">
+      <div class="owl-carousel owl-theme">
+        <div class="item flex">
+          <div class="left">
+            <p>Puro Adrenalina.</p>
+            <h1>Kawasaki</h1>
+            <span>Ficha Técnica</span>
+            <ul>
+              <li>Motor Cc: 370.0cc</li>
+              <li>Potência Máxima: 14.5 bhp @ 9250 rpm</li>
+              <li>Tanque Capacidade: 10.2 Litros</li>
+              <li>Distância entre eixos: 1366 mm</li>
+              <li>Resfriamento: Líquido</li>
+              <li>Max Torque: 12 Nm  a 8000 rpm</li>
+              <Li>Freio ABS</Li>
+            </ul>
+            <h2>Preço: R$100.000,00</h2>
+            <button class="btn2">Comprar Agora</button>
+          </div>
+          <div class="right">
+            <div class="ani_image">
+              <img src="image/bike2.png" alt="">
+            </div>
+          </div>
+        </div>
+        <!--Moto Kawasaki H2R-->
+        <div class="item flex">
+          <div class="left">
+            <p>Velocidade, Emoção, Adrenalina, Desafios.</p>
+            <h1>Kawasaki H2R</h1>
+            <span>Ficha Técnica</span>
+            <ul>
+              <li>Motor Cc: 998cc</li>
+              <li>Potência Máxima: 310cv 14.000rpm</li>
+              <li>Tanque Capacidade: 17 Litros.</li>
+              <li>Distância entre eixos: 2.085mm</li>
+              <li>Resfriamento: Líquido</li>
+              <li>Max Torque: 16,5 kgfm³ a 12.500rpm</li>
+              <li>Freio ABS.</li>
+            </ul>
+            <h2>Preço:</h2>
+            <button class="btn2">Comprar Agora.</button>
+          </div>
+          <div class="right">
+            <div class="ani_image">
+              <img src="image/Kawasaki-H2R-2023-1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="item flex">
+          <div class="left">
+            <p>Velocidade, Emoção, Adrenalina.</p>
+            <h1>SUPERVELOCE 800 2024</h1>
+            <span>Ficha Técnica</span>
+            <ul>
+              <li>Motor Cc: 3c,4t,12v</li>
+              <li>Potência Máxima: 147cv a 13.000 rpm </li>
+              <li>Tanque Capacidade: 798 cc</li>
+              <li>Distância entre eixos: 1.380 mm</li>
+              <li>Resfriamento: Líquido</li>
+              <li>Max Torque: 88 Nm a 10.100 rpm</li>
+              <li>Freio ABS</li>
+            </ul>
+            <h2>Preço: R$ 342.000,00</h2>
+            <button class="btn2">Comprar Agora.</button>
+          </div>
+          <div class="right">
+            <div class="ani_image">
+              <img src="image/lindo.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
+
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 20,
+      nav: true,
+      dots: false,
+      navText: ["<i class='far fa-chevron-left'></i>", "<i class='far fa-chevron-right'></i>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 1
+        },
+        1000: {
+          items: 1
+        }
+      }
+    })
+  </script>
+
+
+  <!--Moto poupulares -->
+  <section class="Popular latest slider">
+    <div class="scontainer">
+      <div class="heading">
+        <h1>Populares</h1>
+        <div class="lines flex1">
+          <div class="line"> <i class="fas fa-circle"></i> </div>
+          <button>5%</button>
+          <div class="line line2"> <i class="fas fa-circle"></i> </div>
+        </div>
+      </div>
+
+
+      <div class="owl-carousel owl-theme">
+        <div class="box">
+          <div class="img">
+            <img src="image/baixados (1).jpg" height="200px" width="400px" alt="">
+            <div class="flex1">
+              <label>5%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+          <div class="detalhes">
+            <h3>Honda Bliz 2024</h3>
+            <p>Unidades: 350</p>
+            <p>Tanque Capacidade: 5.1 Litros</p>
+            <p>Distância entre eixos: 1264mm</p>
+            <p>Resfriamento: Líquido </p>
+            <p>Max Torque: 1.04 kgf.m a 3.500rpm</p>
+            <p>Motor Cc: 124.9cc </p>
+            <P>Potência Máxima: 9.2 cv a 7.500 rpm </P>
+            <h2>R$ 20.000,00 <span>R$ 29.000,00</span> </h2>
+            <button>Comprar</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/Honda Pop 110i.jpg" height="200px" width="300px" alt="">
+            <div class="flex1">
+              <label>5%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalhes">
+            <h3>Honda Pop 110i</h3>
+            <p>Unidades: 500</p>
+            <p>Tanque Capacidade: 4.2 Litros</p>
+            <p>Distância entre eixos: 1234mm</p>
+            <p>Resfriamento: Líquido</p>
+            <p>Max Torque: 0.90 kgf.m a 5.000 rpm </p>
+            <p>Motor Cc: 109.1 cc</p>
+            <P>Potência Maxima: 7.9 cv a 7.250 rpm   </P>
+            <h2>R$ 10.370,00<span>R$ 20.000,00</span> </h2>
+            <button>Comprar</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/Teste.jpg" height="200px" width="300px" alt="">
+            <div class="flex1">
+              <label>5%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalhes">
+            <h3>Honda NXR 160 Bros ESDD</h3>
+            <p>Unidades:800</p>
+            <p>Tanque Capacidade: 12.0 Litros</p>
+            <p>Distância entre eixos: 1356mm</p>
+            <p>Resfriamento: Líquido</p>
+            <p>Max Torque: 1.46 kgf.m a 5.500 rpm </p>
+            <p>Motor Cc: 162.7 cc</p>
+            <P>Potência Máxima: 14.5 cv a 8.500 rpm</P>
+            <h2>R$30.000,00 <span>R$ 40.000,00 </span> </h2>
+            <button>Comprar</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/Honda CG 160 2024.jpeg" height="200px" width="300px" alt="">
+            <div class="flex1">
+              <label>5%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalhes">
+            <h3>Honda CG</h3>
+            <p>Unidades: 500</p>
+            <p>Tanque Capacidade: 16.1 Litros </p>
+            <p>Distância entre eixos: 1315mm</p>
+            <p>Resfriamento: Líquido</p>
+            <p>Max Torque: 1.40 kgf.m a 7.000 rpm  </p>
+            <p>Motor Cc: 162.7cc </p>
+            <p>Freio ABS</p>
+            <P>Potência Maxima: 14.9cv a 8.000 rpm   </P>
+            <h2>R$ 10.370,00<span>R$ 20.000,00</span> </h2>
+            <button>Comprar</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      dots: false,
+      navText: ["<i class='far fa-chevron-left'></i>", "<i class='far fa-chevron-right'></i>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        768: {
+          items: 2
+        },
+        1000: {
+          items: 3
+        }
+      }
+    })
+  </script>
+
+
+
+  <section class="wrapper top">
+    <div class="scontainer">
+      <div class="text">
+        <p>Promoção</p>
+        <h1>Super Kawasaki</h1>
+        <h3>Preço: R$80.000,00</h3>
+        <button class="btn2">Comprar Agora </button>
+      </div>
+      <div class="ani_image">
+        <img src="image/bike3.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <br><br>
+  <br><br>
+<!--Acessorios -->
+  <section class="latest Assesories top">
+    <div class="scontainer">
+      <div class="heading">
+        <h1>Acessórios</h1>
+        <div class="lines flex1">
+          <div class="line"> <i class="fas fa-circle"></i> </div>
+          <button>5%</button>
+          <div class="line line2"> <i class="fas fa-circle"></i> </div>
+        </div>
+      </div>
+
+      <div class="content grid top">
+        <div class="box">
+          <div class="img">
+            <img src="image/a1.png" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalhes">
+            <h3>Capacete com Proteção Sport.</h3>
+            <p>Cores: Preto, Vermelho</p>
+            <p>Unidades: 300</p>
+            <p>Tamanhos: P, M ,G</p>
+            <h2>R$250,00 <span>R$300,00</span> </h2>
+            <button>Ver mais</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/a2.png" alt="">
+            <div class="flex1">
+              <label>5%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalhes">
+            <h3>Luva Motoqueiro Com Proteção Sport.</h3>
+            <p>Cores: Preto, Vermelho</p>
+            <p>Unidades: 20</p>
+            <h2>R$140,00 <span>R$145,00 </span> </h2>
+            <button>Ver Mais</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/a3.png" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalhes">
+            <h3>Jaqueta SPITFIRE </h3>
+            <p>Unidades: 1000</p>
+            <p>Cores: Preto, Branco, Vermelhol, Azul</p>
+            <p>Tamanhos: P, M ,G</p>
+            <h2>R$ 600,00 <span>R$ 800,00</span></h2>
+            <button>Ver Mais</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/a4.png" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalhes">
+            <h3>Bota com Proteção Sport.</h3>
+            <p>unidades: 1000</p>
+            <p>Cores:</p>
+            <p>Tamanhos: 38, 39, 40</p>
+            <h2>R$ 500,00<span>R$ 800,00</span> </h2>
+            <button>Ver Mais</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/a5.png" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+
+          <div class="detalhes">
+            <h3>Jaqueta SPITFIRE </h3>
+            <p>Cor: Preto</p>
+            <p>Tamanhos: P, M, G.</p>
+            <p>Unidades: 2.000</p>
+            <h2>R$ 500,00 <span>R$ 400,00</span> </h2>
+            <button>Ver Mais</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/a6.png" alt="">
+            <div class="flex1">
+              <label>50%</label>
+              <i class="fas fa-heart"></i>
+            </div>
+          </div>
+          <div class="detalhes">
+            <h3>Bota com Proteção Sport.</h3>
+            <p>Cores: Laranja, Preto</p>
+            <p>Unidades: 200</p>
+            <h2>R$ 500,00<span>R$700,00</span> </h2>
+            <button>Ver Mais</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="shipping">
+    <div class="scontainer grid">
+      <div class="box flex">
+        <div class="img">
+          <i class="fas fa-shipping-fast"></i>
+        </div>
+        <div class="text">
+          <h3>Frete e devolução grátis</h3>
+          <p>Frete grátis para todo o mundo em pedidos acima de R$ 900,00</p>
+        </div>
+      </div>
+      <div class="box flex">
+        <div class="img">
+          <i class='far fa-hourglass'></i>
+        </div>
+        <div class="text">
+          <h3>Frete e devolução grátis</h3>
+          <p>Frete grátis para todo o mundo em pedidos acima de R$ 900,00</p>
+        </div>
+      </div>
+      <div class="box flex">
+        <div class="img">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <div class="text">
+          <h3>Frete e devolução grátis</h3>
+          <p>Frete grátis para todo o mundo em pedidos acima de R$ 900,00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="scontainer grid">
+      <div class="box">
+        <div class="logo">
+          <img src="image/logo.png" alt="">
+        </div>
+        <p>Contato</p>
+        <h1>Telefone:0000000000</h1>
+        <small>Email: lucasanjosdosreis@gmail.com</small>
+      </div>
+
+      <div class="box">
+        <h3>Atendimento ao cliente</h3>
+        <div class="flex1">
+          <ul>
+            <li>Ajuda</li>
+            <li>Contate-nos</li>
+            <li>Garantias</li>
+            <li>Termos e Condições</li>
+            <li>Informações de compras</li>
+            <li>Voucher de presente</li>
+          </ul>
+          <ul>
+            <li>Minha Conta</li>
+            <li>Status do pedido </li>
+            <li>Pagamento</li>
+            <li>Pedidas</li>
+            <li>Cancelamento</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box">
+        <h3>Vamos ficar em contato</h3>
+        <div class="input flex1">
+          <input type="email" placeholder="Email Address">
+          <i class="far fa-long-arrow-right"></i>
+        </div>
+        <p>Receba atualizações sobre promoções de vendas e muito mais</p>
+        <div class="social_media">
+          <i class="fab  fa-facebook-f"></i>
+          <i class="fab  fa-instagram"></i>
+          <i class="fab  fa-twitter"></i>
+          <i class="fab  fa-youtube"></i>
+          <i class="fab  fa-google"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+    anime({
+      targets: '.ani_image',
+      translateX: 70,
+      loop: true,
+      direction: 'alternate',
+      easing: 'easeInOutSine'
+    });
+  </script>
+</body>
+</html>
+</html>
